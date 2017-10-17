@@ -14,6 +14,7 @@ header-includes:
 # 12
 
 # 13
+We can follow the edges in their opposite direction, to get the answer that we need to execute $S_1, S_2, S_3, S_4$, before we can execute $S_6$.
 
 # 14
 ## b
