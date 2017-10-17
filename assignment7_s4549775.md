@@ -17,6 +17,7 @@ header-includes:
 
 # 14
 ## b
+$K_{1, 8}$:
 \begin{tikzpicture}
 	\node at (4, 1) (m1) {$m_1$};
 	\foreach \vx in {1, ..., 8} {
@@ -27,6 +28,7 @@ header-includes:
 
 ## e
 ## f
+$Q_4$:
 \begin{tikzpicture}
 	\foreach \va in {0, 1} {
 		\foreach \vb in {0, 1} {
