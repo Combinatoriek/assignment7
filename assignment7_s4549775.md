@@ -8,6 +8,7 @@ fontsize: 12pt
 geometry: margin=5em
 header-includes:
 	- \usepackage{tikz}
+	- \usetikzlibrary{calc}
 ---
 
 \begin{tikzpicture}[
@@ -26,14 +27,10 @@ header-includes:
 		\foreach \vb in {0, 1} {
 			\foreach \vc in {0, 1} {
 				\foreach \vd in {0, 1} {
-					\draw (\va\vb\vc\vd) -- (0\vb\vc\vd);
-					\draw (\va\vb\vc\vd) -- (1\vb\vc\vd);
-					\draw (\va\vb\vc\vd) -- (\va0\vc\vd);
-					\draw (\va\vb\vc\vd) -- (\va1\vc\vd);
-					\draw (\va\vb\vc\vd) -- (\va\vb0\vd);
-					\draw (\va\vb\vc\vd) -- (\va\vb1\vd);
-					\draw (\va\vb\vc\vd) -- (\va\vb\vc0);
-					\draw (\va\vb\vc\vd) -- (\va\vb\vc1);
+                    \draw let \n1={\va==0?1:0} in (\va\vb\vc\vd) -- (\n1\vb\vc\vd);
+                    \draw let \n1={\vb==0?1:0} in (\va\vb\vc\vd) -- (\va\n1\vc\vd);
+                    \draw let \n1={\vc==0?1:0} in (\va\vb\vc\vd) -- (\va\vb\n1\vd);
+                    \draw let \n1={\vd==0?1:0} in (\va\vb\vc\vd) -- (\va\vb\vc\n1);
 				}
 			}
 		}
