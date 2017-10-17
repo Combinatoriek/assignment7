@@ -19,7 +19,7 @@ header-includes:
 ## b
 $K_{1, 8}$:
 \begin{tikzpicture}
-	\node at (4, 1) (m1) {$m_1$};
+	\node at (4.5, 1) (m1) {$m_1$};
 	\foreach \vx in {1, ..., 8} {
 		\node at (\vx, 0) (n\vx) {$n_\vx$};
 		\draw (n\vx) -- (m1);
