@@ -11,6 +11,14 @@ header-includes:
 	- \usetikzlibrary{calc}
 ---
 
+# 12
+
+# 13
+
+# 14
+## b
+## e
+## f
 \begin{tikzpicture}
 	\foreach \va in {0, 1} {
 		\foreach \vb in {0, 1} {
@@ -34,3 +42,31 @@ header-includes:
 		}
 	}
 \end{tikzpicture}
+
+# 15
+## a
+## b
+## c
+## d
+
+# 16
+## a
+## b
+
+# 17
+## a
+## b
+## c
+## d
+## e
+## f
+## g
+## h
+
+# 18
+
+# 19
+## a
+## b
+## c
+## d
