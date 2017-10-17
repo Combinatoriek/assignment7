@@ -27,6 +27,18 @@ $K_{1, 8}$:
 \end{tikzpicture}
 
 ## e
+$W_7$:
+\begin{tikzpicture}[
+	every node/.style={fill=white},
+]
+	\node at (0: 0) (0) {0};
+	\draw (0: 0) circle (6em);
+	\foreach \vx in {1, ..., 7} {
+		\node at (\vx * 360 / 7: 6em) (\vx) {\vx};
+		\draw (0) -- (\vx);
+	}
+\end{tikzpicture}
+
 ## f
 $Q_4$:
 \begin{tikzpicture}
