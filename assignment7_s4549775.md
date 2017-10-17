@@ -11,9 +11,7 @@ header-includes:
 	- \usetikzlibrary{calc}
 ---
 
-\begin{tikzpicture}[
-	scale=1,
-]
+\begin{tikzpicture}
 	\foreach \va in {0, 1} {
 		\foreach \vb in {0, 1} {
 			\foreach \vc in {0, 1} {
