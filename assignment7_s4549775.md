@@ -132,3 +132,6 @@ $W_3$:
 ## b
 ## c
 ## d
+* The edges are directed, because $(f, c) \in E, (c, f) \not \in E$.
+* Multiple edges are allowed, because, for example there are two edges $(b, a)$.
+* Loops are allowed because $(f, f) \in E$.
