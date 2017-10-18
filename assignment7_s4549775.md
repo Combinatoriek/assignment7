@@ -145,6 +145,8 @@ $G = (\{a, b, c, f\}, \{\{a, b\}, \{a, f\}, \{b, c\}, \{b, f\}\})$
 
 # 17
 ## a
+According to the Handshaking Theorem, the degree of a graph is divisible by 2. $2 \not | 15$, so this degree sequence is not graphic.
+
 ## e
 ## f
 \begin{tikzpicture}[
