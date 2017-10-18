@@ -130,6 +130,18 @@ $G = (\{a, b, c, f\}, \{\{a, b\}, \{a, f\}, \{b, c\}, \{b, f\}\})$
 \end{tikzpicture}
 
 ## b
+\begin{tikzpicture}[
+	scale=2,
+]
+	\node at (0, 1) (a) {a};
+	\node at (1, 1) (w) {w};
+	\node at (2, 1) (c) {c};
+	\node at (1, 0) (e) {e};
+	\node at (2, 0) (d) {d};
+	\draw (a) -- (w);
+	\draw (c) -- (w);
+	\draw (e) -- (w);
+\end{tikzpicture}
 
 # 17
 ## a
