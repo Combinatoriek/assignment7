@@ -75,6 +75,24 @@ $K_2$:
 \end{tikzpicture}
 
 ## b
+$C_n$ is bipartite for $n = 1$, and $\{n \in \mathbb{N} |\ 2|n\}$. For even $n$ we can just alternate the node colors.
+
+$C_1$:
+\begin{tikzpicture}
+	\node[circle, draw, fill=black] {};
+\end{tikzpicture}
+
+$C_n, 2|n$:
+\begin{tikzpicture}[
+	b/.style={circle, draw, fill=black},
+	w/.style={circle, draw, fill=white},
+]
+	\draw (0: 0) circle (3em);
+	\node at (0: 3em) [b] {};
+	\node at (120: 3em) [w] {};
+	\node at (240: 3em) [circle, fill=white] {\dots};
+\end{tikzpicture}
+
 ## c
 ## d
 
