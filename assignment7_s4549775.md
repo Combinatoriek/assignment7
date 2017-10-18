@@ -130,6 +130,11 @@ $Q_n$ is bipartite for every $n$.
 
 # 19
 ## a
+* The graph is planar.
+* The number of edges is 13.
+* The in-degree of b is 1.
+* The out-degree of b is 3.
+
 ## b
 ## c
 ## d
