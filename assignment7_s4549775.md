@@ -114,6 +114,21 @@ $Q_n$ is bipartite for every $n$.
 
 # 16
 ## a
+$G = (\{a, b, c, f\}, \{\{a, b\}, \{a, f\}, \{b, c\}, \{b, f\}\})$
+
+\begin{tikzpicture}[
+	scale=2,
+]
+	\node at (0, 1) (a) {a};
+	\node at (1, 1) (b) {b};
+	\node at (2, 1) (c) {c};
+	\node at (0, 0) (f) {f};
+	\draw (a) -- (b);
+	\draw (a) -- (f);
+	\draw (b) -- (c);
+	\draw (b) -- (f);
+\end{tikzpicture}
+
 ## b
 
 # 17
