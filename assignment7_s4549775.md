@@ -110,6 +110,7 @@ $W_3$:
 \end{tikzpicture}
 
 ## d
+$Q_n$ is bipartite for every $n$.
 
 # 16
 ## a
