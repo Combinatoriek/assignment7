@@ -12,6 +12,14 @@ header-includes:
 ---
 
 # 12
+We are given these definitions:
+
+* $u R v \leftrightarrow \{u, v\} \in E$
+* There is a loop at every vertex: $\forall v \in V. \{v, v\} \in E$
+
+From these facts, we can derive that the relation is reflexive: $\forall v \in V. v R v$.
+
+Because the edges are undirected, $\{u, v\} = \{v, u\}$, so the relation is also symmetric: $\forall v_1, v_2 \in V. v_1 R v_2 \leftrightarrow v_2 R v_1$.
 
 # 13
 We can follow the edges in their opposite direction, to get the answer that we need to execute $S_1, S_2, S_3, S_4$, before we can execute $S_6$.
