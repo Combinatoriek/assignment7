@@ -60,6 +60,20 @@ $Q_4$:
 
 # 15
 ## a
+$K_n$ is pipartite for $n \leq 2$, because above that you get triangles, which cannot be bipartite.
+
+$K_1$:
+\begin{tikzpicture}
+	\node[circle, draw, fill=black] {};
+\end{tikzpicture}
+
+$K_2$:
+\begin{tikzpicture}
+	\node at (0, 0) (A) [circle, draw, fill=black] {};
+	\node at (1, 0) (B) [circle, draw] {};
+	\draw (A) -- (B);
+\end{tikzpicture}
+
 ## b
 ## c
 ## d
