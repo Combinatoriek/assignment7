@@ -147,6 +147,15 @@ $G = (\{a, b, c, f\}, \{\{a, b\}, \{a, f\}, \{b, c\}, \{b, f\}\})$
 ## a
 ## e
 ## f
+\begin{tikzpicture}[
+	every node/.style={circle, draw},
+]
+	\foreach \vx in {1, ..., 3} {
+		\node at (\vx, 0) (\vx0) {};
+		\node at (\vx, 1) (\vx1) {};
+		\draw (\vx0) -- (\vx1);
+	}
+\end{tikzpicture}
 
 # 18
 
