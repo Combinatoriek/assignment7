@@ -94,6 +94,21 @@ $C_n, 2|n$:
 \end{tikzpicture}
 
 ## c
+$W_n$ can not be bipartite, as is only defined for $n \geq 3$, so the smallest wheel graph is $W_3$. This graph already contain triangles, as do all $W_n$, so none of them are bipartite.
+
+$W_3$:
+\begin{tikzpicture}[
+	b/.style={circle, draw, fill=black},
+	w/.style={circle, draw, fill=white},
+]
+	\draw (0: 0) circle (3em);
+	\node at (0: 0) (Center) [b] {};
+	\foreach \vx in {1, ..., 3} {
+		\node at (\vx * 360 / 3: 3em) (\vx) [w] {};
+		\draw (Center) -- (\vx);
+	}
+\end{tikzpicture}
+
 ## d
 
 # 16
