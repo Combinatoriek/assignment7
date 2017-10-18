@@ -148,6 +148,16 @@ $G = (\{a, b, c, f\}, \{\{a, b\}, \{a, f\}, \{b, c\}, \{b, f\}\})$
 According to the Handshaking Theorem, the degree of a graph is divisible by 2. $2 \not | 15$, so this degree sequence is not graphic.
 
 ## e
+\begin{tikzpicture}[
+	every node/.style={circle, draw, fill=white},
+]
+	\draw (0: 0) circle (6em);
+	\foreach \vx in {1, ..., 6} {
+		\node at (\vx * 360 / 6: 6em) (\vx) {};
+	}
+	\draw (1) -- (3);
+\end{tikzpicture}
+
 ## f
 \begin{tikzpicture}[
 	every node/.style={circle, draw},
