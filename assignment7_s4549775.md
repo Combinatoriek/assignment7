@@ -211,6 +211,10 @@ $W_3 = \begin{bmatrix}
 \end{bmatrix}$
 
 ## c
+From the Handshaking Theorem we know that $2e$ is the sum of the degrees of all vertices in $G$. That means that $\frac{2e}{v}$ is the average degree of the vertices.
+
+The average is always at most the maximum, so $\frac{2e}{v} \leq M$.
+
 ## d
 * The edges are directed, because $(f, c) \in E, (c, f) \not \in E$.
 * Multiple edges are allowed, because, for example there are two edges $(b, a)$.
