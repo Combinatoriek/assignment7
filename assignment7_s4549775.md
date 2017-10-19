@@ -19,7 +19,11 @@ We are given these definitions:
 
 From these facts, we can derive that the relation is reflexive: $\forall v \in V. v R v$.
 
-Because the edges are undirected, $\{u, v\} = \{v, u\}$, so the relation is also symmetric: $\forall v_1, v_2 \in V. v_1 R v_2 \leftrightarrow v_2 R v_1$.
+1. Assume $u R v$.
+2. From (1) we know, that by the definition of $R$: $\{u, v\} \in E$.
+3. Because the edges are undirected, $\{u, v\} = \{v, u\}$, so $\{v, u\} \in E$.
+4. From (3) we know, that $v R u$.
+5. From (1) and (4) we know, that the relation $R$ is symmetric: $\forall v_1, v_2 \in V. v_1 R v_2 \leftrightarrow v_2 R v_1$.
 
 # 13
 We can follow the edges in their opposite direction, to get the answer that we need to execute $S_1, S_2, S_3, S_4$, before we can execute $S_6$.
