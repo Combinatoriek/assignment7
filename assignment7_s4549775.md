@@ -182,6 +182,14 @@ According to the Handshaking Theorem, the degree of a graph is divisible by 2. $
 \end{tikzpicture}
 
 # 18
+1. In an $n$-regular graph, each node has degree $n$.
+2. From (1): We want to increase the degree of a node in $V_1$, so we need to increase the degrees of every other node in $V_1$ as well.
+3. Nodes in $V_1$ cannot be connected to other nodes in $V_1$, so they need to be connected to nodes in $V_2$.
+4. From (1), (2), and (3): We know that $|V_2| \geq |V_1|$, because we cannot connect more edges to one node in $V_2$, compared to any other node in $V_2$.
+5. Assume that $|V_2| > |V_1|$.
+6. From (2), and (5): There is some node in $V_2$, that has less edges than every node in $V_1$.
+7. From (6): The assumption (5) must be wrong, so $|V_2| \leq |V_1|$.
+8. From (4), and (7): $|V_1| = |V_2|$.
 
 # 19
 ## a
